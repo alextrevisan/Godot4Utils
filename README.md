@@ -21,7 +21,7 @@ func _ready():
   var rotation = 0.0
   var layer_mask = 1
   
-  var overlapping = Physics.OverlapBox(position,size, rotation, layer_mask, self)
+  var overlapping = Physics.OverlapBox(position, size, rotation, layer_mask, self)
   
   print(overlapping)
 
