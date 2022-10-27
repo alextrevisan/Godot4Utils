@@ -2,7 +2,7 @@
 Some Godot4 utilities and conversion functions from Unity
 
 ## Physics
-Godot of Physics.OverlapBox found in Unity
+Godot of Physics2D.OverlapBox found in Unity
 
 ```gdscript
 Physics2D.OverlapBox(position:Vector2, size:Vector2, angle:float, layerMask: int, spaceBody)
@@ -21,7 +21,7 @@ func _ready():
   var rotation = 0.0
   var layer_mask = 1
   
-  var overlapping = Physics.OverlapBox(position, size, rotation, layer_mask, self)
+  var overlapping = Physics2D.OverlapBox(position, size, rotation, layer_mask, self)
   
   print(overlapping)
 
