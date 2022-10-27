@@ -9,7 +9,7 @@ Physics2D.OverlapBox(position:Vector2, size:Vector2, angle:float, layerMask: int
 `
 
 Just add to the autoload and use it
-![Add to autoload](docs/add_to_autoload.png)
+![Add to autoload](docs/autoload.png)
 
 Example:
 ```
